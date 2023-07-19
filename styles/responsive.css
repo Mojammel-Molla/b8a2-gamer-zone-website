@@ -1,0 +1,38 @@
+@media screen and (max-width: 425px){
+ 
+.navbar,.navbar ul,.banner-container,.banner-info,..games-card-container{
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+.nav-btn,.nav-btn img {
+ width: auto;
+ padding-left: 10px;
+ margin-top: 10px;
+}
+.banner-container,{
+width: auto;
+
+}
+.banner-info,
+}
+..banner-image{
+  width: 100%;
+  margin:0 auto;
+}
+/* .games-card-container{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+} */
+
+}
+
+
+
+@media screen and (max-width:786px) {
+.nav-btn,.nav-btn img{
+  width: auto;
+  margin-top: 10px;
+   padding-left: 10px;
+}
+}

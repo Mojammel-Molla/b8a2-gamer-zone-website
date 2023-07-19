@@ -1,0 +1,256 @@
+/* Work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+/* Nav section start here */
+.navbar {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  height: 100px;
+  margin: 20px auto;
+  justify-content: space-between;
+  
+}
+.logo-part{
+  width: 50%;
+  display: flex;
+  align-items:center;
+
+
+}
+.logo-part img{
+ height: 40px;
+  object-fit: cover;
+}
+.logo-part h2{
+ color: #0B0223; 
+font-size: 45px;
+font-weight: 700;
+margin-left: 15px;
+}
+
+.navbar ul {
+width: 50%;
+display: flex;
+justify-content: space-around;
+  
+}
+.navbar ul li {
+  list-style: none;
+  padding-top: 18px;
+  font-weight: 500;
+
+}
+.nav-btn{
+  padding-bottom: 10px;
+  height: 56px;
+  width: 40%;
+ border-radius: 5px;
+ background: rgba(11, 2, 35, 0.10);
+  text-align: center;
+  font-weight: 500;
+  border: none;
+}
+.nav-btn img {
+  padding-left: 20px;
+}
+/* Nav section end here */
+/* Banner section starts here */
+.banner-container{
+  max-width: 1440px;
+  margin:0 auto;
+  width: 100%;
+  display: flex;
+}
+.banner-info{
+  text-align: center;
+  width: 50%;
+ background-image:url(../images/Group\ 14.png);
+}
+.banner-info h3{
+/* padding: 0 auto; */
+color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase; 
+}
+.banner-info h1{
+  /* padding:0 auto; */
+margin: auto;
+font-size: 95px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+.banner-image{
+  width:50%;
+}
+.banner-info p {
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+.primary-btn1{
+  color: #FFF;
+  background-color:#FF42A5 ;
+ font-size: 20px
+  font-weight: 600;
+ padding: 21px 40px;
+ border-radius: 48px;
+ border:none;
+}
+.primary-btn2{
+  color: #FFF;
+  background-color:#4EC5F7 ;
+ font-size: 20px
+  font-weight: 600;
+ padding: 21px 40px;
+ border-radius: 48px;
+ border:none;
+ margin-left:20px;
+}
+.games-section-title{
+max-width: 1440px;
+margin:0 auto;
+text-align: center; 
+}
+.games-section-title h3{
+ color: #FFF;
+font-size: 48px;
+font-weight: 700;l 
+}
+.games-section-title p {
+color: #534C64;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.games-card-container{
+ max-width: 1440px;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 15px;
+}
+.games-card-container p {
+color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px
+}
+.games-card :hover {
+cursor: pointer;
+color: #FFF;
+border-color: 1px solid #F948B2;
+
+border-color:1px solid hsl(324, 94%, 63%);
+
+}
+/* Games card styles end here */
+.games-banner{
+ max-width: 1440px;
+ margin: 30px auto;
+ width: 100%;
+ display: flex;
+}
+.games-title{
+width: 50%;
+margin:10% auto;
+
+}
+.games-title h2 {
+  color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+width: 50%;
+}
+.games-title p {
+color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 50%;
+}
+.games-card :hover{
+  cursor: pointer;
+  border-color:1px solid #F948B2;
+}
+
+.games-images{
+  width: 50%;
+  position: relative;
+}
+.image-card{
+position: absolute;
+bottom: -15%;
+left:-20%;
+}
+.game-items{
+  max-width: 1440px;
+  margin: 200px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+.all-games{
+  color: #0B0223;
+  display: flex;
+  background-color:rgb(255, 255, 255);
+  border-radius: 47px;
+  width:250px;
+  border: 1px solid rgba(36, 29, 29, 0.095) ;
+}
+ .all-games:hover{
+  color: #ff42a4;
+  cursor: pointer;
+  border-color:1px solid#ff42a4;
+  transition: 1.5ms;
+
+}
+.all-games h3 {
+  padding-left: 10px;
+}
+.footer-part{
+max-width: 1440px;
+margin: 50px auto;
+background-color: #0B0223;
+height: 400px;
+}
+.Heading{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ padding:50px;
+
+}
+.footer-part ul ,.footer-logo ul{
+  color: #FFF;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+
+.footer-part ul li,.footer-logo ul li {
+  list-style: none;
+}
+.footer-logo p {
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+margin-top: 40px;
+}
