@@ -27,16 +27,25 @@
 .navbar{
   flex-direction: column;
   height:200px ;
+  width: 200px;
   align-items: center;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
+}
+.logo-part{
+  width: 100%;
+
 }
 .navbar ul{
  flex-direction: column; 
  width:90%;
+
 }
 .navbar ul li{
-  margin-left:10px ;
+  margin-left:15px ;
+  margin-bottom: 10px;
+}
+.nav-btn{
+width: 60%;
 }
 .banner-container{
   flex-direction: column;
@@ -47,11 +56,10 @@
   margin-bottom: 50px;
 }
 .banner-image{
-  width: 400px;
-  height: 400px;
+  width: 100%;
   margin-bottom: 250px;
 }
-..games-section-title h3 p {
+.games-section-title h3 p {
   text-align: center;
 
 }
@@ -63,14 +71,23 @@ grid-template-columns: repeat(1,1fr);
   margin-left: 10px;
   flex-direction: column;
 }
+.games-card{
+  margin-left: 20px;
+}
 .game-items {
 display: grid;
 grid-template-columns:repeat(2,1fr) ;
-margin-left: 20px;
+margin-left: 40px;
 gap: 5px;
 } 
 .games-banner{
+  width: 100%;
   flex-direction: column;
+}
+.games-images{
+position: absolute;
+width: 100%;
+
 }
 .games-banner h2{
   width: 30px;
